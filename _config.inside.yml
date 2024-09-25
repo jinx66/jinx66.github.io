@@ -22,7 +22,7 @@ appearance:
   background:
   # Sidebar background (when opened), default to accent_color
   # D:\project\我的博客\jmbb\public\images\cb38c86a0873ad7018f8fd1ca8dac67.jpg
-  sidebar_background: "https://i.postimg.cc/QMwMd3zC/20240926013258.jpg #475976"
+  sidebar_background: "https://i.postimg.cc/tC1ZKJB0/20240926014809.jpg #475976"
   # Card background, default '#fff'
   card_background:
 
