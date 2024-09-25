@@ -1,0 +1,634 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Hexo
+subtitle: ''
+description: ''
+keywords:
+author: Jinx66
+language: en
+timezone: ''
+
+appearance:
+  # Accent color, default '#2a2b33'
+  accent_color:
+  # Font color, default '#363636'
+  foreground_color:
+  # Border color, default '#e0e0e0'
+  border_color:
+  # body background, default '#f5f7fa'
+  background:
+  # Sidebar background (when opened), default to accent_color
+  # D:\project\我的博客\jmbb\public\images\cb38c86a0873ad7018f8fd1ca8dac67.jpg
+  sidebar_background: "https://i.postimg.cc/xdvgynCK/d32a06700cb344aa1db7710ead4789c.jpg #475976"
+  # Card background, default '#fff'
+  card_background:
+
+  # All background settings above support image, e.g.,
+  # '//www.toptal.com/designers/subtlepatterns/patterns/confectionary.png #f5f7fa' or
+  # 'url(//www.toptal.com/designers/subtlepatterns/patterns/confectionary.png) #f5f7fa'
+
+  # 内容区域最大宽度
+  content_width: 640
+  # 字体设置
+  font:
+    # Url of font css file
+    # Below is a font set containing Baloo Bhaijaan, Josefin Sans, Montserrat and Inconsolata from Google Fonts.
+    url: https://fonts.sourcegcdn.com/css?family=Lobster|Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat
+
+    # Base font which applied to body
+    base: "Josefin Sans"
+    # Sidebar author font, fallback to `base`
+    logo: "Lobster"
+    # Sidebar menu font, fallback to `base`
+    menu: "Baloo Bhaijaan"
+    # Font for:
+    # - percentage on the fab button
+    # - month text on archives page
+    # - count
+    # - pager
+    # - toc index
+    # - category pill
+    # fallback to `base`
+    label: Montserrat
+    # Headline(h1, h2, h3, h4, h5, h6) font, fallback to `base`
+    heading:
+    # Code and code block
+    code: Inconsolata, monospace
+    # Base font for printing which applied to body
+    print:
+
+  # 代码语法高亮
+  # 接受设置值为 16 个 hex 色值的数组，具体请参考 base16 (https://github.com/chriskempson/base16)
+  # 默认配色方案为 Atelier Dune Light
+  highlight: [
+    '#ffffff', '#e0e0e0', '#d6d6d6', '#8e908c',
+    '#969896', '#4d4d4c', '#282a2e', '#1d1f21',
+    '#c82829', '#f5871f', '#eab700', '#718c00',
+    '#3e999f', '#4271ae', '#8959a8', '#a3685a'
+  ]
+
+  # 启用 darkmode
+  darkmode:
+    accent_color: '#539bf5'
+    foreground_color: '#adbac7'
+    border_color: '#373e47'
+    background: '#22272e'
+    sidebar_background: '#22272e'
+    card_background: '#2d333b'
+    highlight: [
+      '#2d333b', '#444c56', '#3e4451', '#545862',
+      '#565c64', '#abb2bf', '#b6bdca', '#c8ccd4',
+      '#e06c75', '#d19a66', '#e5c07b', '#98c379',
+      '#56b6c2', '#61afef', '#c678dd', '#be5046'
+    ]
+
+sns:
+  - title: 抖音
+    url: https://www.douyin.com/user/MS4wLjABAAAAU0wKalCOMdAdUZ4GmTdhI2qTSaNTRVcmcGiumI7YNCA
+    template: |
+      <img style='width: 16px;height: 16px' src='https://img0.baidu.com/it/u=1238622637,2627091992&fm=253&fmt=auto&app=138&f=JPEG?w=667&h=500'></img>
+  - icon: github
+    title: github
+    url: https://github.com/jinx66
+  - icon: twitter
+    title: twitter
+    url: https://twitter.com/loAoo5737038829
+  - icon: facebook
+    title: facebook
+    url: https://www.facebook.com/profile.php?id=100093368082552&mibextid=LQQJ4d
+  - icon: instagram
+    title: instagram
+    url: https://instagram.com/jmbb520?igshid=OGQ5ZDc2ODk2ZA==
+  - icon: youtube
+    title: youtube
+    url: https://www.youtube.com/channel/UCg4KWcKTsqtIE-mDU2deOkA
+  # - email: 1577478705@qq.com
+  # - github: https://github.com/jinx66
+  # - qq: 1577478705
+  # - twitter: https://twitter.com/loAoo5737038829
+  # - facebook: https://www.facebook.com/profile.php?id=100093368082552&mibextid=LQQJ4d
+  # - instagram: https://instagram.com/jmbb520?igshid=OGQ5ZDc2ODk2ZA==
+  # - youtube: https://www.youtube.com/channel/UCg4KWcKTsqtIE-mDU2deOkA
+footer:
+  #设置 sidebar 底部社交媒体 URL。
+
+  # 默认显示 @2019 • author，设置为 false 可隐藏。
+  copyright: '&copy; 2023 • 总访问 <span id="busuanzi_value_site_pv"></span> 次 <br/>❤️ <a href="https://www.douyin.com/user/MS4wLjABAAAAU0wKalCOMdAdUZ4GmTdhI2qTSaNTRVcmcGiumI7YNCA">Jinx</a>'
+  # `由 Hexo 强力驱动` 字样，默认显示，设置为 false 可隐藏。
+  powered: false
+
+  # `主题 - Inside` 字样，默认显示，设置为 false 可隐藏。
+  theme: false
+
+page:
+  # # 首页文章列表的分页大小，缺省值 `10`
+  # per_page: 10
+  # # 显示阅读时间，缺省值 `true`
+  # reading_time: false # 禁用
+  #   # 每分钟阅读字数
+  # wpm: 200
+  # # 展示文案
+  # # 差值: `:words` 字数 `:minutes` 字数 / wpm
+  # text: ":words words in :minutes min"
+
+  # 以下参数设置与 page 一致
+  # toc: false
+  reward: true
+  copyright: true
+  # 于最后一行添加自定义内容
+  # custom: Hosted by <a target="_blank" href="">Github Pages</a>
+
+  # Sidebar profile
+
+# Post
+post:
+  # per_page: 10
+  # reading_time: false
+  # reading_time:
+  #   wpm: 150
+  #   text: ":words words in :minutes min"
+
+  # The following settings are the same as the page
+  # toc: false
+  # reward: true
+  # copyright: true
+  reward: true
+  copyright: true
+
+profile:
+  # 邮箱用于生成 gravatar 头像，如配置了 `hexo.config.email`，此项可缺省
+  email: 1577478705@qq.com
+
+  # 也可以直接设置头像 URL
+  avatar: https://avatars.githubusercontent.com/u/75258117?s=96&v=4
+
+  # 个性签名
+  bio: 做人最紧要系开心
+
+menu:
+  # 主页: /
+  # 关于: /about
+  # 搜索: /search
+  # Github: https://github.com/jinx66
+  📃 博客: /
+  🔍 搜索: /search
+  🔗 友链: /link
+  🧑‍💻 关于: /about
+  😽 Github: https://github.com/jinx66
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: inside
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: 'git'
+  repository: 'git@github.com:jinx66/lovelsy.github.io.git'
+  branch: 'main'
+
+archive:
+  # 归档页分页大小，缺省值 `10`
+  per_page: 10
+
+tag:
+  # 标签页分页大小，缺省值 `10`
+  per_page: 10
+
+category:
+  # 分类页分页大小，缺省值 `10`
+  per_page: 10
+
+toc:
+# 最多显示几层目录，最多 4 层，缺省值 `3`
+depth:
+# 是否显示标号，如 1.1、1.2，默认显示，设置为 false 可隐藏。
+index: false
+
+# Reward (Donate)
+# Front-matter variable (unsupport animation).
+reward_settings:
+  # If true, reward will be displayed in every article by default.
+  enable: true
+  animation: false
+  comment: 坚持原创分享，您的支持将鼓励我继续创作更多优质内容！
+
+
+reward:
+  # 显示一句文案
+  text: 😘😘😘谢谢老板请我喝褚橙拿铁☕☕☕
+
+  # 支付方式列表，注意是数组
+  methods:
+    - name: wechat
+      qrcode: https://i.postimg.cc/ZqD9W232/8915f799653609cdc87a50edd623b0a.jpg
+      text: 微信
+      color: "#22ad38"
+    - name: alipay
+      qrcode: https://i.postimg.cc/RCwFmNPj/6209b5b0de1cec5bc9ea4782da0781a.jpg
+      url: https://qr.alipay.com/fkx11528a5pdqnxbnscea3b?t=1703367717686
+      text: 支付宝（点击前往）
+      color: "#1678ff"
+
+
+      # qrcode、url 和 text 必须至少设置一项
+
+# Comments
+# Built-in support Disqus (https://disqus.com) and LiveRe (https://livere.com),
+# for other comment system, see plugins
+comments:
+  # disqus:
+  #   shortname: disqus_shortname
+  #   # Or you can set disqus script URL directly
+  #   script: //disqus_shortname.disqus.com/embed.js
+  #   # Autoload, default to `true`, set to `false` to display a button
+  #   autoload: false
+
+# ---------------------------------------------------------------
+# Misc
+# ---------------------------------------------------------------
+
+# URL prefix for theme statics
+static_prefix: "https://gcore.jsdelivr.net/gh/ikeq/hexo-theme-inside@2.7.0/source/"
+
+# Folder where json file will be generated to, default to 'api'
+data_dir:
+
+# Favicon, default to `favicon.ico`
+favicon: "https://avatars.githubusercontent.com/u/75258117?s=96&v=4"
+
+# Google analytics
+# ga: UA-00000000-0
+
+# SEO
+seo:
+  # Render structured-data in <head>, default to `false`
+  # structured_data: true
+  # Server-side rendering (SSR), default to `false`
+  # ssr: true
+  structured_data: true
+
+# PWA
+pwa:
+  # Workbox (https://developers.google.com/web/tools/workbox/) is a JavaScript
+  # libraries for adding offline support to web apps,
+  # disabled by default, remove the hash to enable
+  # workbox:
+  #   # Workbox cdn, uses google by default, below is an example of using alicdn
+  #   cdn: https://g.alicdn.com/kg/workbox/3.3.0/workbox-sw.js
+  #   module_path_prefix: https://g.alicdn.com/kg/workbox/3.3.0/
+  #   # Expire time in hour, 4 by default, set to 0 to be permanent,
+  #   # caches will be forcibly deleted the next time the site is updated.
+  #   expire: 4
+  #   # The worker script name, `sw.js` by default
+  #   name: sw.js
+  #   # Custom rules
+  #   rules:
+  #     - name: jsdelivr
+  #       strategy: staleWhileRevalidate
+  #       regex: https://cdn\\.jsdelivr\\.net
+  #     - name: gtm
+  #       strategy: staleWhileRevalidate
+  #       regex: https://www\\.googletagmanager\\.com\?id=.*
+  #     - name: gravatar
+  #       strategy: staleWhileRevalidate
+  #       regex: https://www\\.gravatar\\.com
+  #     - name: theme
+  #       strategy: staleWhileRevalidate
+  #       regex: /.*\\.(?:js|css|woff2|png|jpg|gif)$
+  #     - name: cdn
+  #       strategy: staleWhileRevalidate
+  #       regex: https://cdn\\.yourdomain\\.com
+  #     - name: json
+  #       strategy: cacheFirst
+  #       regex: your_data_prefix/.*\\.json
+  workbox:
+    cdn: https://cdn.cbd.int/workbox-sw@6.5.4/build/workbox-sw.js
+    module_path_prefix: https://storage.googleapis.com/workbox-cdn/releases/6.5.4/
+    name: sw.js
+    rules:
+      # 使用 staleWhileRevalidate 策略缓存 CBD CDN 请求
+      - name: cbd_cdn
+        strategy: staleWhileRevalidate
+        regex: https://cdn\\.cbd\\.int
+      # 使用 cacheFirst 策略缓存静态资源
+      - name: theme
+        strategy: cacheFirst
+        regex: /.*\\.(?:js|css|woff2|png|jpg|gif)l;/span>
+      # 使用 cacheFirst 策略缓存 json 文件
+      - name: json
+        strategy: cacheFirst
+        regex: your_data_prefix/.*\\.json
+
+  # manifest.json
+  # manifest:
+  #   short_name:
+  #   name:
+  #   start_url: /
+  #   theme_color: '#2a2b33'
+  #   background_color: '#2a2b33'
+  #   icons:
+  #     - src: icon-194x194.png
+  #       sizes: 194x194 512x512
+  #       type: image/png
+  #       purpose: any
+  #     - src: icon-144x144.png
+  #       sizes: 144x144
+  #       type: image/png
+  #       purpose: any
+  manifest:
+    short_name: Jinx's Blog
+    name: "Jinx's Blog"
+    start_url: /?source=pwa
+    theme_color: "#659eb9"
+    background_color: "#f5f7fa"
+    icons:
+      - src: "https://avatars.githubusercontent.com/u/75258117?s=96&v=4"
+        sizes: 192x192
+        type: image/png
+        purpose: any
+      - src: "https://avatars.githubusercontent.com/u/75258117?s=96&v=4"
+        type: "image/png"
+        sizes": "144x144"
+        purpose: any
+    display: standalone
+
+# Plugins
+plugins:
+  # Built-in plugins
+  # - cipher:
+  #     placeholder: Passcode is required
+  #     excerpt: Content encrypted
+  # - palette:
+  #     col: 5
+  #     theme: [
+  #       '#673ab7',
+  #       '#3f51b5',
+  #       '#2196f3',
+  #       '#009688',
+  #       '#4caf50',
+  #       '#ff9800',
+  #       '#ff5722',
+  #       '#795548',
+  #       '#607D8B',
+  #       '#2a2b33'
+  #     ]
+  - cipher:
+      placeholder: 请输入密码解锁内容
+      excerpt: 内容已加密
+  - palette:
+      theme:
+        [
+          "#673ab7",
+          "#3f51b5",
+          "#2196f3",
+          "#009688",
+          "#4caf50",
+          "#ff9800",
+          "#ff5722",
+          "#795548",
+          "#607d8B",
+          "#2a2b33",
+        ]
+      col: 5
+
+  # Global Inject script/style
+  # By default script will be injected into <body>, and style will be injected into <head>
+  # In general, script or style depends on their ext name.
+  # - xxx.css
+  # - xxx.jss
+  - https://busuanzi.icodeq.com/busuanzi.pure.mini.js # 不蒜子统计
+  - https://cdn.cbd.int/clipboard@v2/dist/clipboard.min.js # 剪贴板
+  - https://cdn.cbd.int/@waline/client@v2/dist/waline.js # Waline 依赖
+  - https://cdn.cbd.int/cworld-blog@latest/src/css/main.min.css # 自定义 CSS
+  - https://cdn.bootcdn.net/ajax/libs/vConsole/3.5.1/vconsole.min.js
+  # - https://cdn.cbd.int/cworld-blog@latest/src/js/main.min.js # 自定义 JSS
+  - /js/main.min.js # 自定义 JSS
+  - /css/index.css # 自定义 JSS
+
+  # Dynamic inject html snippet
+  # - position: # sidebar | post | page | comments | avatar | head_begin | head_end | body_begin | body_end
+  # HTML code
+  # template: <script>...</script>
+  # Or a path relative to `hexo.base_dir`
+  # template: snippets/snippet-1.html
+  - position: [post, page] # 剪贴板 + 阅读量
+    template: |
+      <script>
+        let elements = document.querySelectorAll(".highlight tr>.code");
+        for (var i = 0; i < elements.length; i++) { elements[i].innerHTML = '<button class="btn-copy" data-clipboard-snippet=""><svg t="1644686763820" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2062" data-darkreader-inline-fill="" width="16" height="16"><path d="M798.4 128h-72v-12.8c0-38.4-33.6-72-72-72h-97.6C555.2 17.6 537.6 0 512 0c-25.6 0-43.2 17.6-43.2 43.2h-97.6c-38.4 0-72 33.6-72 72V128h-72c-30.4 0-56 25.6-56 56v780.8c0 33.6 25.6 59.2 59.2 59.2h568c17.6 0 33.6-8 43.2-20.8 8-12.8 12.8-25.6 12.8-38.4V184C852.8 153.6 827.2 128 798.4 128zM384 128h256v84.8H384V128z m384 811.2H256V212.8h43.2v12.8c0 38.4 33.6 72 72 72h281.6c38.4 0 72-33.6 72-72v-12.8H768v726.4z" p-id="2063"></path></svg></button>' + elements[i].innerHTML };
+        new ClipboardJS('.btn-copy', { target: (trigger) => trigger.nextElementSibling });
+      </script>
+      <style>
+        .btn-copy{position:absolute;right:5px;top:5px;border:0;padding:3px 6px;border-radius:3px;background:var(--inside-background);fill:var(--inside-foreground-color);opacity:0;transition:.3s}.highlight:hover .btn-copy{opacity:1}
+      </style>
+      <p align="center" id="readTimes"></p>
+  - position: comments
+    template: |
+      <div id="waline">好像评论卡了欸，要不要刷新一下？✨</div>
+      <script>
+        Waline.init({
+          el: "#waline",
+          serverURL: "https://waline-blog-jinx66.vercel.app/",
+          reaction: ["https://cdn.cbd.int/cworld-blog@latest/src/img/comment-like.png"],
+          search: false,
+          pageview: true,
+          comment: true,
+          locale: {
+              reaction0: "喜欢",
+              placeholder: "欢迎评论。(填写邮箱可在被回复时收到邮件提醒)",
+              login: "登录(非必须)",
+          },
+        });
+      </script>
+      <link href="https://cdn.cbd.int/@waline/client@v2/dist/waline.css" rel="stylesheet">
+      <link href="https://cdn.cbd.int/cworld-blog@latest/src/css/comment.min.css" rel="stylesheet">
+      <link href="https://unpkg.com/@waline/client@v2/dist/waline.css" rel="stylesheet">
+
+copyright:
+  # 显示作者，设置为 false 可隐藏。
+  author: true
+  # 显示文章链接，设置为 false 可隐藏。
+  link: true
+  # 版权声明
+  license: Attribution-NonCommercial-NoDerivatives 4.0 International<br>(<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noopener" target="_blank">CC BY-NC-ND 4.0</a>)
+  # 显示发表日期，默认不显示，设置为 true 可显示。
+  published: true
+  # 显示修改日期，默认不显示，设置为 true 可显示。
+  updated: true
+  # 禁用以上设置，显示自定义信息
+  # custom: 不许转载😡！！！
+ 
+
+# Search
+search:
+  # Display a quick search button in fab
+  # fab: true
+
+  # Render a standalone searh page which can be configured in sidebar menu such as `Search: /search`
+  # page: true
+  page: true
+
+  # Local search
+  # adapter:
+  #   range:
+  #     - post
+  #     - page
+  #   per_page: 20
+  #   limit: 10000
+  adapter:
+    range:
+      - post
+      - page
+    per_page: 20
+    limit: 10000
+
+  # Custom search
+  # adapter:
+  #   # Used for pagination
+  #   per_page: 10
+  #   # Optional
+  #   logo: //cdn.worldvectorlogo.com/logos/algolia.svg
+  #   request:
+  #     url: https://{APPLICATION_ID}-dsn.algolia.net/1/indexes/{INDEX}/query
+  #     method: post
+  #     # Available variables: :query, :per_page, :current
+  #     body: '{"query":":query","hitsPerPage":":per_page","page":":current"}'
+  #     headers:
+  #       X-Algolia-API-Key: {API_KEY}
+  #       X-Algolia-Application-Id: {APPLICATION_ID}
+  #       Content-Type: application/json; charset=UTF-8
+  #   keys:
+  #     # Used to retrieve result list
+  #     data: hits
+  #     # Used to retrieve current page number
+  #     current: page
+  #     # Used to retrieve total page number
+  #     total: nbPage
+  #     # Used to retrieve total hits number
+  #     hits: nbHits
+  #     # Used to retrieve cost time
+  #     time: processingTimeMS
+  #     # Used to retrieve title from per hit
+  #     title: _snippetResult.title.value
+  #     # Used to retrieve content from per hit
+  #     content: _snippetResult.content.value
+
+# ---------------------------------------------------------------
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+# url: https://jinx66.gitee.io/
+# permalink: /post/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render: ["src/*", "src/**/*", "src/**/**/*"]
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ""
+filename_case: 0
+render_drafts: false
+post_asset_folder: true
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ""
+  wrap: true
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ""
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ""
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: "mtime"
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+
+# Security
+encrypt: # hexo-blog-encrypt
+  abstract: 有东西被加密了, 请输入密码查看.
+  message: 哈喽, 这里需要密码,密码是你的名字首字母英文缩写，例如：wwk（五五开）
+  tags:
+  - {name: Python, password: cjm}
+  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-wanko
+  display:
+    position: left
+    width: 150
+    height: 300
+  mobile:
+    show: true
+  react:
+    opacity: 0.7

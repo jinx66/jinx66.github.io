@@ -1,0 +1,14 @@
+# Hexo
+public/
+.deploy*/
+.DS_Store
+Thumbs.db
+db.json
+*.log
+_multiconfig.yml
+
+# Modules
+node_modules/
+# VSCode
+*.code-workspace
+.vscode/

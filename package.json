@@ -1,0 +1,57 @@
+{
+  "name": "cworld-blog",
+  "version": "2.0.8",
+  "private": false,
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "serve": "hexo server",
+    "post": "hexo new post",
+    "page": "hexo new page",
+    "draft": "hexo new draft",
+    "publish": "hexo publish",
+    "list": "hexo show"
+  },
+  "engines": {
+    "node": ">= 14"
+  },
+  "hexo": {
+    "version": "6.3.0"
+  },
+  "dependencies": {
+    "hexo": "^6.3.0",
+    "hexo-blog-encrypt": "^3.1.9",
+    "hexo-deployer-git": "^4.0.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-index": "^3.0.0",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-helper-live2d": "^3.1.1",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-stylus": "^2.1.0",
+    "hexo-server": "^3.0.0",
+    "hexo-theme-inside": "^2.7.0",
+    "markdown-it-container": "^3.0.0",
+    "vconsole": "^3.15.1"
+  },
+  "main": "index.html",
+  "description": "The source of Jinx's blog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cworld1/cworld1.git"
+  },
+  "keywords": [
+    "blog",
+    "jinx",
+    "jinx66"
+  ],
+  "author": "Jinx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cworld1/cworld1/issues"
+  },
+  "homepage": "https://github.com/cworld1/cworld1#readme"
+}
