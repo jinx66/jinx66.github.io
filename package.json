@@ -34,7 +34,7 @@
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-inside": "^2.7.0",
-    "markdown-it-container": "^3.0.0",
+    "markdown-it-container": "^4.0.0",
     "vconsole": "^3.15.1"
   },
   "main": "index.html",
