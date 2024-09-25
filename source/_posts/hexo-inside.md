@@ -147,7 +147,7 @@ footer:
   # Set to false to hide.
   copyright: |
     <script async src="https://busuanzi.icodeq.com/busuanzi.pure.mini.js"></script>
-    &copy;2022 • <a href="">CWorld</a> • 总访问 <span id="busuanzi_value_site_pv"></span> 次
+    &copy;2024 • <a href="">CWorld</a> • 总访问 <span id="busuanzi_value_site_pv"></span> 次
 ```
 
 ### 代码块快捷复制到剪贴板

@@ -22,7 +22,7 @@ appearance:
   background:
   # Sidebar background (when opened), default to accent_color
   # D:\project\我的博客\jmbb\public\images\cb38c86a0873ad7018f8fd1ca8dac67.jpg
-  sidebar_background: "https://i.postimg.cc/xdvgynCK/d32a06700cb344aa1db7710ead4789c.jpg #475976"
+  sidebar_background: "https://i.postimg.cc/QMwMd3zC/20240926013258.jpg #475976"
   # Card background, default '#fff'
   card_background:
 
@@ -116,7 +116,7 @@ footer:
   #设置 sidebar 底部社交媒体 URL。
 
   # 默认显示 @2019 • author，设置为 false 可隐藏。
-  copyright: '&copy; 2023 • 总访问 <span id="busuanzi_value_site_pv"></span> 次 <br/>❤️ <a href="https://www.douyin.com/user/MS4wLjABAAAAU0wKalCOMdAdUZ4GmTdhI2qTSaNTRVcmcGiumI7YNCA">Jinx</a>'
+  copyright: '&copy; 2024 • 总访问 <span id="busuanzi_value_site_pv"></span> 次 <br/>❤️ <a href="https://www.douyin.com/user/MS4wLjABAAAAU0wKalCOMdAdUZ4GmTdhI2qTSaNTRVcmcGiumI7YNCA">Jinx</a>'
   # `由 Hexo 强力驱动` 字样，默认显示，设置为 false 可隐藏。
   powered: false
 
@@ -220,7 +220,7 @@ reward_settings:
 
 reward:
   # 显示一句文案
-  text: 😘😘😘谢谢老板请我喝褚橙拿铁☕☕☕
+  text: 😘😘😘谢谢老板请我喝抹茶好喝椰🥥🥥🥥
 
   # 支付方式列表，注意是数组
   methods:
@@ -607,9 +607,9 @@ ignore:
 # Security
 encrypt: # hexo-blog-encrypt
   abstract: 有东西被加密了, 请输入密码查看.
-  message: 哈喽, 这里需要密码,密码是你的名字首字母英文缩写，例如：wwk（五五开）
+  message: 哎呀, 这里需要密码
   tags:
-  - {name: Python, password: cjm}
+  - {name: Python, password: cj12122121m}
   wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
   wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
 

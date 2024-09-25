@@ -5,7 +5,7 @@ categories:
   - 教程
 tags:
   - Chrome
-sticky: 1
+sticky: 2
 
 thumbnail: "thumbnail.jpg #2f76d7"
 ---
