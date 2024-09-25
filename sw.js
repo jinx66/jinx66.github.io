@@ -4,7 +4,7 @@ workbox.setConfig({ modulePathPrefix: 'https://storage.googleapis.com/workbox-cd
 self.addEventListener('install', function (event) {
   event.waitUntil(
     caches.keys().then(function (names) {
-      var validSets = ["is-sw-bbb7b0","is-html-bbb7b0","is-cbd_cdn-bbb7b0","is-theme-bbb7b0","is-json-bbb7b0"];
+      var validSets = ["is-sw-f14b54","is-html-f14b54","is-cbd_cdn-f14b54","is-theme-f14b54","is-json-f14b54"];
       return Promise.all(
         names
           .filter(function (name) { return !~validSets.indexOf(name); })
@@ -18,18 +18,18 @@ self.addEventListener('install', function (event) {
 });
 
 workbox.routing.registerRoute(new RegExp('sw\\.js'), workbox.strategies.networkOnly({
-  cacheName: 'is-sw-bbb7b0',
+  cacheName: 'is-sw-f14b54',
 }));
 workbox.routing.registerRoute(new RegExp('https://cdn\\.cbd\\.int'), workbox.strategies.staleWhileRevalidate({
-  cacheName: 'is-cbd_cdn-bbb7b0',
+  cacheName: 'is-cbd_cdn-f14b54',
   plugins: [ new workbox.expiration.Plugin({ maxAgeSeconds: 14400 }) ],
 }));
 workbox.routing.registerRoute(new RegExp('/.*\\.(?:js|css|woff2|png|jpg|gif)l;/span>'), workbox.strategies.cacheFirst({
-  cacheName: 'is-theme-bbb7b0',
+  cacheName: 'is-theme-f14b54',
   plugins: [ new workbox.expiration.Plugin({ maxAgeSeconds: 14400 }) ],
 }));
 workbox.routing.registerRoute(new RegExp('your_data_prefix/.*\\.json'), workbox.strategies.cacheFirst({
-  cacheName: 'is-json-bbb7b0',
+  cacheName: 'is-json-f14b54',
   plugins: [ new workbox.expiration.Plugin({ maxAgeSeconds: 14400 }) ],
 }));
 
