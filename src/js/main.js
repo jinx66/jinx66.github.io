@@ -4,5 +4,5 @@ console.log("%c cjm天天开心哈哈哈哈哈哈 %c https://jinx66.gitee.io/","
     //添加iframe标签
     var body = document.getElementsByTagName("body");
     var div = document.createElement("div");
-    div.innerHTML = '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=525427197&auto=1&height=66"></iframe>';
+    div.innerHTML = '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=525427197&auto=1&height=66"></iframe>';
     document.body.appendChild(div);
