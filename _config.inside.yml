@@ -188,7 +188,7 @@ theme: inside
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repository: 'git@github.com:jinx66/lovelsy.github.io.git'
+  repository: 'git@github.com:jinx66/jinx66.github.io.git'
   branch: 'main'
 
 archive:
