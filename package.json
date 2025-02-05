@@ -1,5 +1,5 @@
 {
-  "name": "cworld-blog",
+  "name": "jinx66-blog",
   "version": "2.0.8",
   "private": false,
   "scripts": {
@@ -49,9 +49,5 @@
     "jinx66"
   ],
   "author": "Jinx",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cworld1/cworld1/issues"
-  },
-  "homepage": "https://github.com/cworld1/cworld1#readme"
+  "license": "MIT"
 }
