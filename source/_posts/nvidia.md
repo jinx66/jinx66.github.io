@@ -6,7 +6,6 @@ categories:
 tags:
   - N卡
   - 游戏录制
-sticky: 1
 
 thumbnail: "thumbnail.jpg #2f76d7"
 ---

@@ -5,7 +5,6 @@ categories: 教程
 tags:
   - ChatGPT
   - nvm
-sticky: 1
 
 thumbnail: "thumbnail.jpg #2f76d7"
 ---

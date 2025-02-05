@@ -3,7 +3,6 @@ title: 转载 • 个人网站存在的意义
 date: 2023-06-15 15:08:38
 categories:
   - 随笔
-sticky: 1
 thumbnail: "thumbnail.jpg #2f76d7"
 ---
 
