@@ -41,7 +41,7 @@
 	color: #aaa;
 	font-weight: 400;
 	font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	-webkit-appearance: none; /* for box shadows to show on iOS */
+	-webkit-appearance: none;
 }
 
 .hbe-input-field:focus {
@@ -79,12 +79,10 @@
 	left: 0;
 	fill: none;
 }
-
-/* hbe button in post page */
 .hbe-button {
   width: 130px;
   height: 40px;
-  background: linear-gradient(to bottom, #4eb5e5 0%,#389ed5 100%); /* W3C */
+  background: linear-gradient(to bottom, #4eb5e5 0%,#389ed5 100%);
   border: none;
   border-radius: 5px;
   position: relative;
@@ -124,9 +122,7 @@
   top: 0;
   border-radius: 0 5px 5px 0;
 }
-/* hbe button in post page */
 
-/* default theme {{{ */
 .hbe-input-default {
 	overflow: hidden;
 }
@@ -217,9 +213,7 @@
 	-webkit-transform: translate3d(0, 2.1em, 0) scale3d(0.65, 0.65, 1);
 	transform: translate3d(0, 2.1em, 0) scale3d(0.65, 0.65, 1);
 }
-/* default theme }}} */
 
-/* up theme {{{ */
 .hbe-input-up {
 	overflow: hidden;
 	padding-top: 2em;
@@ -293,9 +287,6 @@
 	-webkit-transform: translate3d(0, -3.3em, 0) scale3d(0.81, 0.81, 1);
 	transform: translate3d(0, -3.3em, 0) scale3d(0.81, 0.81, 1);
 }
-/* up theme }}} */
-
-/* wave theme {{{ */
 .hbe-input-wave {
 	overflow: hidden;
 	padding-top: 1em;
@@ -349,9 +340,6 @@
 	-webkit-transform: translate3d(-66.6%, 0, 0);
 	transform: translate3d(-66.6%, 0, 0);
 }
-/* wave theme }}} */
-
-/* flip theme {{{ */
 .hbe-input-field-flip {
 	width: 100%;
 	background-color: #d0d1d0;
@@ -416,9 +404,6 @@
 	background-color: transparent;
 	border-color: #666666;
 }
-/* flip theme }}} */
-
-/* xray theme {{{ */
 .hbe-input-xray {
 	overflow: hidden;
 	padding-bottom: 2.5em;
@@ -478,9 +463,6 @@
 	-webkit-transform: translate3d(-66.6%, 0, 0);
 	transform: translate3d(-66.6%, 0, 0);
 }
-/* xray theme }}} */
-
-/* blink theme {{{ */
 .hbe-input-blink {
 	padding-top: 1em;
 }
@@ -596,9 +578,6 @@
 		transform: translate3d(0, 200%, 0);
 	}
 }
-/* blink theme }}} */
-
-/* surge theme {{{ */
 .hbe-input-surge {
 	overflow: hidden;
 	padding-bottom: 1em;
@@ -691,9 +670,7 @@
 	-webkit-transform: translate3d(-66.6%, 0, 0);
 	transform: translate3d(-66.6%, 0, 0);
 }
-/* surge theme }}} */
 
-/* shrink theme {{{ */
 .hbe-input-field-shrink {
 	width: 100%;
 	background: transparent;
@@ -746,4 +723,3 @@
 	-webkit-transform: translate3d(0, 2em, 0) scale3d(0.655, 0.655, 1);
 	transform: translate3d(0, 2em, 0) scale3d(0.655, 0.655, 1);
 }
-/* shrink theme }}} */

@@ -253,7 +253,7 @@ comments:
 # ---------------------------------------------------------------
 
 # URL prefix for theme statics
-static_prefix: "https://gcore.jsdelivr.net/gh/ikeq/hexo-theme-inside@2.7.0/source/"
+static_prefix: ""
 
 # Folder where json file will be generated to, default to 'api'
 data_dir:
