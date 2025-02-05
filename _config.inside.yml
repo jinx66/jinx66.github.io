@@ -407,8 +407,6 @@ plugins:
   - https://cdn.cbd.int/cworld-blog@latest/src/css/main.min.css # 自定义 CSS
   - https://cdn.bootcdn.net/ajax/libs/vConsole/3.5.1/vconsole.min.js
   # - https://cdn.cbd.int/cworld-blog@latest/src/js/main.min.js # 自定义 JSS
-  - /sw.js # 自定义 JS
-  - /styles.91e7dfca63c7c151daa6.css # 自定义 JSS
 
   # Dynamic inject html snippet
   # - position: # sidebar | post | page | comments | avatar | head_begin | head_end | body_begin | body_end
@@ -537,7 +535,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: ["src/*", "src/**/*", "src/**/**/*"]
+skip_render: []
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -600,6 +598,7 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
+  - js/**
 exclude:
 ignore:
 
