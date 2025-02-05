@@ -407,10 +407,8 @@ plugins:
   - https://cdn.cbd.int/cworld-blog@latest/src/css/main.min.css # 自定义 CSS
   - https://cdn.bootcdn.net/ajax/libs/vConsole/3.5.1/vconsole.min.js
   # - https://cdn.cbd.int/cworld-blog@latest/src/js/main.min.js # 自定义 JSS
-  - /js/main.min.js # 自定义 JSS
-  - /css/index.css # 自定义 JSS
-  - /main.min.js # 自定义 JSS
-  - /index.css # 自定义 JSS
+  - /sw.js # 自定义 JS
+  - /styles.91e7dfca63c7c151daa6.css # 自定义 JSS
 
   # Dynamic inject html snippet
   # - position: # sidebar | post | page | comments | avatar | head_begin | head_end | body_begin | body_end
