@@ -4,3 +4,5 @@
 css文件夹加一个index.css文件
 
 生产直接用的是根目录下的main.min.js和index.css，无需修改
+
+git push;hexo d;git pull;git push
