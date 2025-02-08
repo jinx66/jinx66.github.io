@@ -612,22 +612,22 @@ encrypt: # hexo-blog-encrypt
   wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
   wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
 
-
-live2d:
-  enable: true
-  scriptFrom: local
-  pluginRootPath: live2dw/
-  pluginJsPath: lib/
-  pluginModelPath: assets/
-  tagMode: false
-  debug: false
-  model:
-    use: live2d-widget-model-wanko
-  display:
-    position: left
-    width: 150
-    height: 300
-  mobile:
-    show: true
-  react:
-    opacity: 0.7
+# npm install hexo-helper-live2d
+# live2d:
+#   enable: false
+#   scriptFrom: local
+#   pluginRootPath: live2dw/
+#   pluginJsPath: lib/
+#   pluginModelPath: assets/
+#   tagMode: false
+#   debug: false
+#   model:
+#     use: live2d-widget-model-wanko
+#   display:
+#     position: left
+#     width: 150
+#     height: 300
+#   mobile:
+#     show: true
+#   react:
+#     opacity: 0.7
