@@ -225,11 +225,11 @@ reward:
   # 支付方式列表，注意是数组
   methods:
     - name: wechat
-      qrcode: https://i.postimg.cc/ZqD9W232/8915f799653609cdc87a50edd623b0a.jpg
+      qrcode: /wechatpay.jpg
       text: 微信
       color: "#22ad38"
     - name: alipay
-      qrcode: https://i.postimg.cc/RCwFmNPj/6209b5b0de1cec5bc9ea4782da0781a.jpg
+      qrcode: /zhifubaopay.jpg
       url: https://qr.alipay.com/fkx11528a5pdqnxbnscea3b?t=1703367717686
       text: 支付宝（点击前往）
       color: "#1678ff"
